@@ -1,0 +1,71 @@
+body {
+  background: black;
+}
+
+#chat-container {
+  background: url("./img/maxresdefault.jpg");
+  height: 50vh;
+  position: relative;
+  border-radius: 4rem;
+  box-shadow: 2px 2px 10px white;
+  box-sizing: border-box;
+  margin: 100px 500px;
+}
+
+#chat-window {
+  padding: 30px;
+  overflow-y: auto;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#output {
+  color: white;
+  width: 20vw;
+  font-size: 20px;
+}
+
+#send {
+  position: absolute;
+  bottom: 50px;
+  left: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  width: 200px;
+}
+
+#send > :nth-child(2) {
+  width: 600px;
+}
+
+::placeholder {
+  color: white;
+  background-color: transparent;
+}
+
+#btn {
+  width: 80px;
+  background-color: rgba(127, 208, 255, 0.493);
+  border: none;
+  border-radius: 2px;
+  position: absolute;
+  right: -90px;
+  bottom: -3px;
+  height: 30px;
+  color: white;
+}
+
+input:focus {
+  background: transparent;
+  border: none;
+}
